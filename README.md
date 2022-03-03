@@ -22,7 +22,9 @@ The project follows the follow steps:
 To help guide the project, we've broken it down into a series of steps.
     
 <h3>Step 1: Scope the Project and Gather Data</h3><a id="s1"></a>
-#### Scope 
+    
+#### Scope
+    
 In this project we will use  some important datasets related to immigration process and the temperature with the world. We will use some usful data enginnering tools like data werehouses,AWS  S3,  Spark, Apache Airflow and AWS Warehouse like Redshif
     
 
