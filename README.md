@@ -32,7 +32,7 @@ Explore the data to identify data quality issues, like missing values, duplicate
 #### 3.1 Conceptual Data Model
 We will use the star schema data model because we could easily work on it by create and join tables.
 the following image indicates the star schema diagram:
-![](images/star_schema.png)
+![](star_schema.png)
 
 #### 3.2 Mapping Out Data Pipelines
 the steps necessary to pipeline the data.
@@ -57,6 +57,7 @@ we will find that here [data_quality](https://github.com/abdallah-elsawy/Data-En
 
 - 1- I94 Immigration dataset: 
 ##### immigration
+    
 <table class="tg" align="left">
   <tr>
     <th class="tg-0pky">Column Name</th>
@@ -102,6 +103,26 @@ we will find that here [data_quality](https://github.com/abdallah-elsawy/Data-En
  <tr><td class="tg-0pky">Longitude</td><td class="tg-0pky">GPS coordinates</td></tr>
 </table>
 
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
 ## <h3> Step 5: Complete Project Write Up  </h3><a id="s5"></a>
 What's the goal? What queries will we want to run? How would Spark or Airflow be incorporated? Why did we choose that model?
