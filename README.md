@@ -3,6 +3,7 @@
 Today, 1% of the world is a barely livable hot zone. By 2070, that portion could go up to 19%.Billions of people call this land home. Where will they go? we will help the countries and governments to understand the basic relation between the climate change and the immigration issue. In this project we will use some important datasets related to immigration process and the temperature with the world. We will use some useful data engineering tools like data warehouses, AWS S3, Spark, Apache Airflow and AWS Warehouse like Redshift to deal with those datasets and try to indicates to the concerned people how the weather change and temperature is a important factor to the immigration process.
 
 
+# Steps
 The project follows the follow steps:
 
 <li><a href="#s1">Step 1: Scope the Project and Gather Data</a>
