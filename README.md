@@ -32,7 +32,8 @@ Explore the data to identify data quality issues, like missing values, duplicate
 #### 3.1 Conceptual Data Model
 We will use the star schema data model because we could easily work on it by create and join tables.
 the following image indicates the star schema diagram:
-![](star_schema.png)
+    
+![](star_schema.jpg)
 
 #### 3.2 Mapping Out Data Pipelines
 the steps necessary to pipeline the data.
@@ -53,6 +54,32 @@ we will find that here [Capstone Project](https://github.com/abdallah-elsawy/Dat
 #### 4.2 Data Quality Checks
 we will find that here [data_quality](https://github.com/abdallah-elsawy/Data-Engineering-Capstone-Project/blob/main/Airflow/plugins/operators/data_quality.py)
 
+   
+    
+## <h3> Step 5: Complete Project Write Up  </h3><a id="s5"></a>
+### Tools and technologies for the project.
+     
+     - Spark
+     - AWS S3
+     - Apache Airflow 
+     - AWS Warehouse like Redshift 
+
+
+### How often the data should be updated and why.
+     
+     - Should be updated Monthly Should be updated Monthly because the data is formed monthly.
+     
+### How we will deal with those differently under the following scenarios:
+#### The data was increased by 100x.
+      - Use partitioning  of the data or use AWS EMR
+#### The data populates a dashboard that must be updated on a daily basis by 7am every day.
+      - We should use Apache Airflow  to updated dashboard daily.
+#### The database needed to be accessed by 100+ people.
+      - Use partitioning to give the ability to all users to access the data quickly
+
+    
+    
+    
 #### 4.3 Data dictionary 
 
 - 1- I94 Immigration dataset: 
@@ -103,54 +130,3 @@ we will find that here [data_quality](https://github.com/abdallah-elsawy/Data-En
  <tr><td class="tg-0pky">Longitude</td><td class="tg-0pky">GPS coordinates</td></tr>
 </table>
 
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-## <h3> Step 5: Complete Project Write Up  </h3><a id="s5"></a>
-What's the goal? What queries will we want to run? How would Spark or Airflow be incorporated? Why did we choose that model?
-Clearly state the rationale for the choice of tools and technologies for the project.
-Document the steps of the process.
-Propose how often the data should be updated and why.
-Include a description of how you would approach the problem differently under the following scenarios:
-If the data was increased by 100x.
-If the pipelines were run on a daily basis by 7am.
-If the database needed to be accessed by 100+ people.    
-    
-## <h3> Step 5: Complete Project Write Up  </h3><a id="s5"></a>
-### Tools and technologies for the project.
-     
-     - Spark
-     - AWS S3
-     - Apache Airflow 
-     - AWS Warehouse like Redshift 
-
-
-### How often the data should be updated and why.
-     
-     - Should be updated Monthly Should be updated Monthly because the data is formed monthly.
-     
-### How we will deal with those differently under the following scenarios:
-#### The data was increased by 100x.
-      - Use partitioning  of the data or use AWS EMR
-#### The data populates a dashboard that must be updated on a daily basis by 7am every day.
-      - We should use Apache Airflow  to updated dashboard daily.
-#### The database needed to be accessed by 100+ people.
-      - Use partitioning to give the ability to all users to access the data quickly
